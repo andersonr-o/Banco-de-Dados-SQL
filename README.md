@@ -1,6 +1,6 @@
 # Maneiras diferentes de se chegar ao mesmo resultado.
 
-Resultado esperado &rigtharrow; Queremos o nome dos funcionários que têm o cargo de Engenheiro de Design.<br>
+Resultado esperado &rightarrow; Queremos o nome dos funcionários que têm o cargo de Engenheiro de Design.<br>
 A informação dos cargos se encontram na tabela HumanResources.Employee e os seus nomes na tabela Person.Person<br><br>
 
 As duas maneiras são dinâmicas, isto é, se algum dado mudar, poderíamos rodar o mesmo script e teríamos resultados atualizados.<br><br>
