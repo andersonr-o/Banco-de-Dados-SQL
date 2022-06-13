@@ -2,10 +2,10 @@
 
 Para criarmos tabelas, temos que usar o seguinte código:<br><br>
 
-```CREATE TABLE nomeTabela(```
-	```coluna1 | tipo | restricaoDaColuna```
-	```coluna2 | tipo | restricaoDaColuna```
-	```coluna3 | tipo | restricaoDaColuna```
+```CREATE TABLE nomeTabela(```<br>
+	```coluna1 | tipo | restricaoDaColuna```<br>
+	```coluna2 | tipo | restricaoDaColuna```<br>
+	```coluna3 | tipo | restricaoDaColuna```<br>
 ```)```
 
 ## Tipos de Restrições em SQL:
@@ -31,32 +31,32 @@ DataCriacao DATETIME NOT NULL<br><br>
 
 *Criando a tabela do Canal:*<br><br>
 
-```CREATE TABLE Canal(```
-	```CanalId INT PRIMARY KEY,```
-	```Nome VARCHAR(150) NOT NULL,```
-	```ContagemInscritos INT DEFAULT 0,```
-	```DataCriacao DATETIME NOT NULL```
+```CREATE TABLE Canal(```<br>
+	```CanalId INT PRIMARY KEY,```<br>
+	```Nome VARCHAR(150) NOT NULL,```<br>
+	```ContagemInscritos INT DEFAULT 0,```<br>
+	```DataCriacao DATETIME NOT NULL```<br>
 ```)```<br><br>
 
 
 *A estrutura da tabela do Vídeo:*<br><br>
 
-VideoId INT PRIMARY KEY
-Nome VARCHAR(150)
-Visualizações INT DEFAULT 0
-Likes INT DEFAULT 0
-Dislikes INT DEFAULT 0
-Duracao INT NOT NULL
+VideoId INT PRIMARY KEY<br>
+Nome VARCHAR(150)<br>
+Visualizações INT DEFAULT 0<br>
+Likes INT DEFAULT 0<br>
+Dislikes INT DEFAULT 0<br>
+Duracao INT NOT NULL<br>
 CanalId INT FOREIGN KEY REFERENCES Canal(CanalId)<br><br>
 
 *Criando a tabela do Vídeo:*<br><br>
 
-```CREATE TABLE Video(```
-	```VideoId int primary key,```
-	```Nome varchar(150) not null,```
-	```Visualizações int default 0,```
-	```Likes int default 0,```
-	```Dislikes int default 0,```
-	```Duracao int default 0,```
-	```CanalId int Foreign Key References Canal(CanalId)```
+```CREATE TABLE Video(```<br>
+	```VideoId int primary key,```<br>
+	```Nome varchar(150) not null,```<br>
+	```Visualizações int default 0,```<br>
+	```Likes int default 0,```<br>
+	```Dislikes int default 0,```<br>
+	```Duracao int default 0,```<br>
+	```CanalId int Foreign Key References Canal(CanalId)```<br>
 ```)```
