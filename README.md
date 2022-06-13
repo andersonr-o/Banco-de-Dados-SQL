@@ -4,6 +4,8 @@ Depois de criadas, as tabelas podem ser mudadas através de uma fórmula bem sim
 
 Dentre as possibilidades, podemos alterar os tipos das tabelas, seus limites e suas restrições. Não conseguimos alterar o nome usando essa fórmula, mas no fim do artigo eu deixei a fórmula que se usa para mudar os nomes de tabelas e colunas do nosso Banco de Dados.
 
+## Fórmula Usada e Como se Usa
+
 Para isso, usamos o comando ALTER TABLE.<br><br>
 Sintaxe:<br><br>
 ```ALTER TABLE nomeTabela```
