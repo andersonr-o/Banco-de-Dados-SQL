@@ -1,4 +1,8 @@
-# Chave Primária (PK)
+# Chaves
+
+Em um Banco de Dados, temos as chaves, que são um tipo de restrição, mas, mais que isso, são usadas para referenciar tabelas no Banco, portanto são muito importantes.
+
+## Chave Primária (PK)
 
 Uma chave primária é basicamente uma coluna ou grupo de colunas, que identificam uma linha dentro da tabela.<br>
 Chaves primárias são criadas através de constraints, que são regras que você define ao criar uma coluna.<br>
@@ -11,7 +15,7 @@ CREATE TABLE nome_Tabela(
 	nomeColuna tipoDeDados...
 )
 
-# Chave Estrangeira (FK)
+## Chave Estrangeira (FK)
 
 É uma coluna ou grupo de colunas em uma tabela que identifica unicamente uma linha em outra tabela.<br><br>
 Ela é uma referência dentro de outra tabela, não abrangendo todos os dados que estão ali. Geralmente são números ou strings.<br><br>
