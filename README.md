@@ -1,3 +1,5 @@
+# Como Criar Visualizações em SQL
+
 Geralmente usada para a criação de relatórios, a Visualização é uma maneira que temos de extrair dados específicos de uma tabela já existente e colocarmos em uma tabela nova, que será usada para consulta.<br><br>
 
 Sintaxe + Exemplo:<br><br>
